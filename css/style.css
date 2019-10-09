@@ -1,0 +1,80 @@
+/*base classes*/
+.display-inline-block{
+	display: inline-block;
+}
+.float-left{
+	float:left;
+}
+.float-right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+/*ens base classes*/
+
+.green-box{
+	height: 703px;
+	width: 1287px;
+	background-color: #22B573;
+}
+
+/*header*/
+.header{
+	padding: 46px 44px 0 0 ;
+}
+.logo img{
+	width: 201px;
+}
+.nav-a{
+	text-transform: uppercase;
+	font-size: 48px;
+	color: white;
+	margin-right: 44px;
+	font-family: 'Bitter', serif;
+}
+/*end header*/
+
+/*yellow section*/
+.yellow-box{
+	width: 617px;
+	height: 356px;
+	background: #FCEE21;
+	float: left;
+	margin-right: 10px;
+	padding: 23px 24px 37px 25px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: 'Bitter', serif;
+}
+.yellow-box2{
+	width:500px;
+	height: 356px;
+	background: #FCEE21;
+	float: right;
+	color:#006837;
+	padding: 23px 36px 22px 26px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: 'Bitter', serif;
+}
+.p{
+	padding-top: 22px;
+}
+.main-wraper::after{
+	content: '';
+	clear: both;
+	display: block;
+	margin-right: 30px;
+}
+.container{
+	width: 1280px;
+	padding:64px 56px 80px 72px;
+}
+.image1{
+	padding: 0 0 67px 23px;
+}
+.image2{
+	padding: 0 21px 20px 0;
+}
+/*end yellow section*/
